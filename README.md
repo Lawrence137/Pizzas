@@ -1,24 +1,69 @@
-# README
+# Pizzas
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an API for tracking pizzas restaurants.
 
-Things you may want to cover:
+# Pre-Requisites
 
-* Ruby version
+Operating System (Windows 10+, Linux 3.8+, or MacOS X 10.7+)
 
-* System dependencies
+Ruby 2.7.4 or later
 
-* Configuration
+Rails 6.1.4 or later
 
-* Database creation
+# Setup
 
-* Database initialization
+Clone the repository
 
-* How to run the test suite
+`git clone https://github.com/Lawrence137/pizzas`
 
-* Services (job queues, cache servers, search engines, etc.)
+Ensure the ruby gems are setup in your machine
 
-* Deployment instructions
+`bundle install`
 
-* ...
+Perform any pending database migrations
+
+`rails db:migrate db:seed`
+
+Run the application
+
+`rails start`
+
+Open the application on Postman
+
+`http://127.0.0.1:3000`
+
+# Routes
+
+GET /restaurants
+
+- Return a list of all Restaurants
+
+GET /restaurants/:id
+
+- Returns a restaurant with associated pizzas
+
+DELETE /restaurants/:id
+
+- Deletes/destroy restaurant along with its associations
+
+GET /pizzas
+
+- Returns a list of pizzas
+
+POST /restaurant_pizzas
+
+- Creates new Restaurant Pizza associated with existing Pizza and Restaurant
+
+# Authors
+
+This project was contributed to by;
+
+Lawrence Kimani
+
+Email: lawrencekimani18@gmail.com
+
+# License
+
+This project is licensed under GNU
+
+General Public License v2.0
