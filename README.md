@@ -12,6 +12,8 @@ Rails 6.1.4 or later
 
 # Setup
 
+You can setup this repository by following this manual;
+
 Clone the repository
 
 `git clone https://github.com/Lawrence137/pizzas`
@@ -28,7 +30,7 @@ Run the application
 
 `rails start`
 
-Open the application on Postman
+Open the application on Postman using this URL to test the various endpoints
 
 `http://127.0.0.1:3000`
 
