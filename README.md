@@ -28,7 +28,7 @@ Perform any pending database migrations
 
 Run the application
 
-`rails start`
+`rails serve`
 
 Open the application on Postman using this URL to test the various endpoints
 
