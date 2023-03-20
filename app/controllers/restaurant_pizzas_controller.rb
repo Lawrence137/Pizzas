@@ -1,8 +1,8 @@
 class RestaurantPizzasController < ApplicationController
-    def index
-        restaurant_pizzas = RestaurantPizza.all
-        render json: restaurant_pizzas
-    end
+    # def index
+    #     restaurant_pizzas = RestaurantPizza.all
+    #     render json: restaurant_pizzas
+    # end
     
     def create
         restaurant_pizza = RestaurantPizza.create(restaurant_pizza_params)
