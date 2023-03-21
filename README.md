@@ -34,6 +34,12 @@ Open the application on Postman using this URL to test the various endpoints
 
 `http://127.0.0.1:3000`
 
+# Option 2
+
+You can simply run the api by clicking on the deployed link below;
+
+`https://piza-api.onrender.com/restaurants`
+
 # Routes
 
 GET /restaurants
